@@ -1,0 +1,34 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="180" height="180" rx="32" fill="url(#bg)"/>
+  
+  <!-- Dumbbell icon -->
+  <g transform="translate(45, 45)">
+    <!-- Left weight -->
+    <rect x="6" y="30" width="14" height="30" rx="7" fill="url(#icon)"/>
+    <!-- Right weight -->
+    <rect x="70" y="30" width="14" height="30" rx="7" fill="url(#icon)"/>
+    <!-- Bar -->
+    <rect x="20" y="42" width="50" height="6" rx="3" fill="url(#icon)"/>
+    <!-- Center grip -->
+    <rect x="38" y="38" width="14" height="14" rx="2" fill="url(#icon)" opacity="0.8"/>
+  </g>
+  
+  <!-- Heart accent -->
+  <g transform="translate(112, 30)">
+    <path d="M22 8C22 5 19.5 2.5 16.5 2.5C14.5 2.5 12.8 3.7 12 5.3C11.2 3.7 9.5 2.5 7.5 2.5C4.5 2.5 2 5 2 8C2 11.8 12 20 12 20S22 11.8 22 8Z" 
+          fill="#ef4444" opacity="0.9"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  
+  <!-- Dumbbell icon -->
+  <g transform="translate(128, 128)">
+    <!-- Left weight -->
+    <rect x="24" y="96" width="48" height="96" rx="24" fill="url(#icon)"/>
+    <!-- Right weight -->
+    <rect x="184" y="96" width="48" height="96" rx="24" fill="url(#icon)"/>
+    <!-- Bar -->
+    <rect x="72" y="128" width="112" height="32" rx="16" fill="url(#icon)"/>
+    <!-- Center grip -->
+    <rect x="112" y="112" width="32" height="64" rx="8" fill="url(#icon)" opacity="0.8"/>
+  </g>
+  
+  <!-- Heart accent -->
+  <g transform="translate(320, 96)">
+    <path d="M64 22.5C64 14.5 57.5 8 49.5 8C44.5 8 39.8 11.2 37 16.8C34.2 11.2 29.5 8 24.5 8C16.5 8 10 14.5 10 22.5C10 32.3 37 56 37 56S64 32.3 64 22.5Z" 
+          fill="#ef4444" opacity="0.9"/>
+  </g>
+  
+  <!-- Additional fitness elements -->
+  <g transform="translate(96, 320)">
+    <!-- Apple icon for nutrition -->
+    <path d="M48 16C48 7.2 41.3 0 32.5 0C23.7 0 17 7.2 17 16C17 24.8 23.7 32 32.5 32C41.3 32 48 24.8 48 16Z" 
+          fill="url(#icon)" opacity="0.7"/>
+    <path d="M32.5 8C36.1 8 39 10.9 39 14.5S36.1 21 32.5 21S26 18.1 26 14.5S28.9 8 32.5 8Z" 
+          fill="#0f172a" opacity="0.3"/>
+  </g>
+</svg>
